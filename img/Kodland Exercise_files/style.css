@@ -1,0 +1,185 @@
+/* Reset */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Coolors */
+:root {
+    --one-color: #ffbf69;
+    --two-color: #cbf3f0;
+    --three-color: #333333;
+}
+
+/* Common */
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 12px 50px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btn.two-color {
+    background-color: var(--two-color);
+}
+
+.btn.one-color {
+    background-color: var(--one-color);
+}
+
+/* Typography */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+header {
+    background-color: var(--one-color);
+    padding: 15px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+header a {
+    color: black;
+}
+
+header h4 {
+    font-size: 20px;
+}
+
+header i {
+    font-size: 18px;
+}
+
+.nav-desktop {
+    display: none;
+}
+
+.menu-header {
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+
+.menu-header li:not(:first-child) {
+    padding-left: 75px;
+}
+
+/* Hero */
+#hero {
+    background-color: var(--one-color);
+}
+
+#hero .container {
+    height: 450px;
+    background-image: url("../img/background.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#hero .container .row {
+    height: 100%;
+}
+
+.content-hero {
+    margin-left: 10px;
+}
+
+.content-hero h1, .content-hero p {
+    color: white;
+}
+
+.content-hero h1 {
+    font-size: 75px;
+}
+
+.content-hero p {
+    margin-bottom: 50px;
+}
+
+/* Paragraph */
+#paragraph .col-12 {
+    padding: 10%;
+}
+
+#paragraph h3{
+    margin-bottom: 10px;
+}
+
+/* Articles */
+#articles {
+    background-color: var(--two-color);
+    padding: 50px 0px;
+}
+
+#articles .col-12 {
+    margin: 20px 0px;
+}
+
+#articles img {
+    width: 40%;
+}
+
+.name {
+    margin: 10px 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Product */
+#product {
+    padding: 15px 0px;
+}
+
+#product .container {
+    height: 450px;
+    background-image: url("../img/bg-grid.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#product .container .row {
+    height: 100%;
+}
+
+#product .container .row {
+    height: 100%;
+}
+
+.content-product {
+    padding: 10px;
+}
+
+.content-product h3 {
+    margin-bottom: 10px;
+}
+
+#product img {
+    width: 85%;
+}
+
+/* Footer */
+footer {
+    background-color: var(--three-color);
+    padding: 25px 0px;
+}
+
+footer a {
+    color: white;
+}
+
+footer .col-12 {
+    margin: 5px 0px;
+}

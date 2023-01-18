@@ -1,0 +1,59 @@
+/* INIZIO */
+.container {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
+
+.col-12 {
+    flex-basis: 100%;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+@media screen and (min-width: 768px) { 
+    
+    .col-md-4 {
+        flex-basis: calc((100% / 12) * 4);
+    }
+
+    .col-md-6 {
+        flex-basis: calc((100% / 12) * 6);
+    }
+
+    .col-md-8 {
+        flex-basis: calc((100% / 12) * 8);
+    }
+
+    .col-md-five {
+        flex-basis: 20%;
+    }
+
+    .nav-desktop {
+        display: block;
+    }
+
+    .nav-mobile-btn {
+        display: none;
+    }
+
+}
+/* FINE */
